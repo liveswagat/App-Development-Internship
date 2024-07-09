@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.mobile-frame {
+  width: 360px;
+  height: 800px;
+  background-color: #09020d;
+}
+.grad-section {
+  width: 360px;
+  height: 295px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    159deg,
+    rgba(143, 0, 211, 0.6) 8.03%,
+    #09020d 75.62%
+  );
+}
+.logo {
+  top: 100px;
+  left: 121px;
+  width: 119px;
+  text-align: center;
+  height: 44px;
+  flex-shrink: 0;
+  fill: #fff;
+  justify-content: center;
+}
+.login-label p {
+  left: 16px;
+  top: 275px;
+  color: #f7f7f7;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.form {
+  justify-content: center;
+}
+.email-input label {
+  color: #f7f7f7;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px; /* 100% */
+}
+.email-input input {
+  width: 328px;
+  height: 36px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 1px solid #383838;
+  background: rgba(47, 39, 50, 0.68);
+}
+.password-input label {
+  color: #f7f7f7;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px; /* 100% */
+}
+.password-input input {
+  width: 328px;
+  height: 36px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #383838;
+  background: rgba(47, 39, 50, 0.68);
+}

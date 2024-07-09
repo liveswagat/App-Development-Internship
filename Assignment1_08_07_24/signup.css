@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-section{
+    position: absolute;
+    height: 632px;
+    width: 778px ;
+    top: 80px;
+    left: 87px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+.signup{
+    position: absolute;
+    top:40px ;
+    left: 202px;
+    border: none;
+    border-radius: 337px; 
+    height: 63px;
+    width: 156px;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    font-size: 26px;
+    background: linear-gradient(to right,#FFB800,#CF7D02);
+
+
+}
+.login{
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    height:63px ;
+    width: 156px;
+    background-size: cover;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    font-size: 26px;
+    background: linear-gradient(to right,#FFB800,#CF7D02);
+
+}
+input{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: none;
+    border-radius: 100px;
+    height:50px ;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+    font-weight: 15px;
+
+}
+.finalsignup{
+    position: absolute;
+    top: 536px;
+    left: 295px;
+    height:63px ;
+    width: 156px;
+    background-size: cover;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    font-size: 26px;
+    background: linear-gradient(to right,#FFB800,#CF7D02);
+
+}
+a{
+    text-decoration: none;
+}
+.illustration{
+    width: 575px;
+    height: 571px;
+    top:158px ;
+    right: 0px;
+    position: absolute;
+}
+
